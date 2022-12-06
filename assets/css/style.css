@@ -1,6 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Serif+Pro&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: source serif pro, sans-serif;
     font-weight: 300;
+    color: black;
+}
+
+/*headings and page name styling*/
+
+h1,
+h2 {
+    font-family: oswald, san sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 100%;
+    background-color: blue;
+}
+
+/*navigation links*/
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+    float: right;
+    background-color: red;
+
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
 }
