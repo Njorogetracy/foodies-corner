@@ -24,7 +24,6 @@ h2 {
 #logo {
     float: left;
     font-size: 100%;
-    background-color: blue;
 }
 
 /*navigation links*/
@@ -41,4 +40,17 @@ h2 {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    background-color: blue;
+}
+
+.active {
+    background-color: blue;
 }
