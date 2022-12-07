@@ -32,8 +32,6 @@ h2 {
     font-size: 150%;
     letter-spacing: 4px;
     float: right;
-    background-color: red;
-
 }
 
 #menu li {
@@ -53,4 +51,43 @@ h2 {
 
 .active {
     background-color: blue;
+}
+
+/*background image column and content column*/
+
+.outer-container {
+    display: grid;
+    grid-template-columns: 20fr 20fr;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+  
+}
+
+.left-container {
+    width: 100%;
+}
+
+.hero-image {
+    height: 100%;
+    width: 100%;
+    float: left;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.right-container {
+    display: grid;
+    width: 100%;
+    float: right;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content {
+   
 }
