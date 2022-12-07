@@ -10,6 +10,7 @@ body {
     font-family: source serif pro, sans-serif;
     font-weight: 300;
     color: black;
+    background-color: ivory;
 }
 
 /*headings and page name styling*/
@@ -23,7 +24,8 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 100%;
+    font-size: 150%;
+    padding-left: 5px;
 }
 
 /*navigation links*/
@@ -61,33 +63,56 @@ h2 {
     height: 500px;
     width: 100%;
     overflow: hidden;
+    gap: 1.5rem;
   
 }
 
 .left-container {
     width: 100%;
+    padding-left: 5px;
 }
 
-.hero-image {
+.left-container .hero-image {
     height: 100%;
     width: 100%;
     float: left;
     object-fit: cover;
     overflow: hidden;
-    background-color: aqua;
 }
 
 .right-container {
     display: grid;
     width: 100%;
     float: right;
+    padding-right: 5px;
+    display: block;
 
 }
 
-.text-center {
+.right-container #page-name {
+    font-size: 600%;
+    padding-top: 90px;
+    padding-bottom: 0;
+}
+
+.right-container h2 {
+    font-size: 150%;
+    padding-top: 0;
+}
+
+.text-center h1 {
+    text-align: center;
+}
+
+.text-center h2 {
     text-align: center;
 }
 
 .content {
-   
+   justify-content: space-around;
+}
+
+.right-container p {
+    font-size: 120%;
+    padding-top: 20px;
 }
