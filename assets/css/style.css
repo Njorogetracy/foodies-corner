@@ -59,56 +59,83 @@ h2 {
 
 .outer-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    padding: 2em;
-    overflow: hidden;
-  
-}
-
-.left-container {
+    grid-template-rows: 1fr;
+    height: 100%;
     width: 100%;
 }
 
-.left-container .hero-image {
+.first-container {
+    height: 600px;
     width: 100%;
-    float: left;
+
+    position: relative;
+}
+
+.hero-image {
+    height: 600px;
+    width: 100%;
     object-fit: cover;
     overflow: hidden;
 }
 
-.right-container {
-    display: grid;
-    width: 80%;
-    float: right;
+
+#page-name h1 {
+    font-size: 700%;
+    color: ivory;
+}
+
+#page-name {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    align-items: center;
+
+    width: 500px;
+    height: 400px;
+
+
+   /** background-color: rgba(255, 255, 240, .5);**/
+    padding: 1em;
+
+    bottom: 70px;
+    right: 50px;
+
+    position: absolute;
+}
+
+.second-container {
+    grid-template-rows: 1fr;
+    height: 600px;
+    width: 100%;
     display: inline-block;
     background-color: #FFEEDB;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 
-}
-
-.right-container #page-name {
-    font-size: 500%;
-}
-
-.right-container h2 {
-    font-size: 150%;
 }
 
 .text-center h1 {
     text-align: center;
 }
 
+.second-container h2 {
+    font-size: 150%;
+}
+
 .text-center h2 {
     text-align: center;
 }
 
-.right-container p {
+.second-container p {
     font-size: 100%;
-    display: inline-flex;
+    width: 50%;   
 }
 
-.content {
-    padding: 2em;
+.text-center p {
+    text-align: center;
+    display: inline;
+    justify-content: space-around;
 }
+
 
