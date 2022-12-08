@@ -6,6 +6,8 @@
     border: none;
 }
 
+/*body styles*/
+
 body {
     font-family: source serif pro, sans-serif;
     font-weight: 300;
@@ -13,7 +15,7 @@ body {
     background-color: ivory;
 }
 
-/*headings and page name styling*/
+/*headings and logo styling*/
 
 h1,
 h2 {
@@ -55,7 +57,7 @@ h2 {
     background-color: blue;
 }
 
-/*background image column and content column*/
+/*hero image and cover text*/
 
 .outer-container {
     display: grid;
@@ -81,7 +83,7 @@ h2 {
 
 #page-name h1 {
     font-size: 700%;
-    color: ivory;
+    color: rgba(255, 255, 240, .9);
 }
 
 #page-name {
@@ -102,6 +104,8 @@ h2 {
 
     position: absolute;
 }
+
+/*about section*/
 
 .second-container {
     grid-template-rows: 1fr;
