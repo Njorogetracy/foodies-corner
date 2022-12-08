@@ -12,14 +12,20 @@ body {
     font-family: source serif pro, sans-serif;
     font-weight: 300;
     color: black;
-    background-color: ivory;
+    background-color: #FFEEDB;
+}
+
+p {
+    font-size: 150%;
+    font-family: source serif pro, sans-serif;
+    color: black;
 }
 
 /*headings and logo styling*/
 
 h1,
-h2 {
-    font-family: oswald, san sans-serif;
+h2 h3 {
+    font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -50,11 +56,11 @@ h2 {
 }
 
 #menu a:hover {
-    background-color: blue;
+    background-color: #FFD8CC;
 }
 
 .active {
-    background-color: blue;
+    background-color: #FFD8CC;
 }
 
 /*hero image and cover text*/
@@ -83,7 +89,7 @@ h2 {
 
 #page-name h1 {
     font-size: 700%;
-    color: rgba(255, 255, 240, .9);
+    color: rgba(255, 216, 204, .9);
 }
 
 #page-name {
@@ -95,8 +101,6 @@ h2 {
     width: 500px;
     height: 400px;
 
-
-   /** background-color: rgba(255, 255, 240, .5);**/
     padding: 1em;
 
     bottom: 70px;
@@ -105,41 +109,84 @@ h2 {
     position: absolute;
 }
 
-/*about section*/
+/*second container, about section*/
 
-.second-container {
-    grid-template-rows: 1fr;
+#second-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     height: 600px;
     width: 100%;
-    display: inline-block;
     background-color: #FFEEDB;
-    align-items: center;
     justify-content: center;
-    overflow: hidden;
-
+    gap: 1rem;
 }
 
-.text-center h1 {
-    text-align: center;
-}
-
-.second-container h2 {
-    font-size: 150%;
+div {
+    height: auto;
+    width: 100%;
+    flex-basis: 100%;
 }
 
 .text-center h2 {
+    background-color: aqua;
+    font-size: 150%;
     text-align: center;
-}
-
-.second-container p {
-    font-size: 100%;
-    width: 50%;   
 }
 
 .text-center p {
+    background-color: purple;;
     text-align: center;
-    display: inline;
-    justify-content: space-around;
+    
 }
 
+/*more infomation section*/
 
+#join-us {
+    text-align: center;
+    background-color: green;
+}
+
+#social {
+    background-color: yellow;
+    text-align: center;
+}
+
+#explore {
+    background-color: blue;
+    text-align: center;
+}
+
+#enjoy-food {
+    background-color: red;
+    text-align: center;
+}
+
+/*footer elements*/
+
+footer {
+    height: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.social-links > li {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.social-networks i {
+    font-size: 160%;
+    justify-content: space-between;
+    color: black;
+}    
