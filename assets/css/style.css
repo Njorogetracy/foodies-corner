@@ -115,17 +115,18 @@ h2 h3 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    height: 600px;
     width: 100%;
+    max-width: 100%;
+    padding: 3rem;
+    box-sizing: border-box;
     background-color: #FFEEDB;
     justify-content: center;
-    gap: 1rem;
 }
 
 div {
-    height: auto;
     width: 100%;
-    flex-basis: 100%;
+    max-width: 100%;
+    flex-basis: 50%;
 }
 
 .text-center h2 {
