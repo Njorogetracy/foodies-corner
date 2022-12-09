@@ -196,7 +196,7 @@ footer ul {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 2rem;
     gap: 1rem;
 }
 
@@ -205,6 +205,9 @@ footer ul {
     font-weight: 500px;
 }
 
+#workshops p {
+    text-align: center;
+}
 
 /*gallery*/
 
