@@ -220,15 +220,16 @@ footer ul {
 }
 
 #the-chefs img {
-    width: 40%;
+    width: 50%;
     object-fit: cover;
 }
 
 #description {
+    width: 20%;
     align-items: center;
     text-align: center;
     background-color: #FFBD9B;
-    padding: 2rem;
+    padding: 1rem;
 
 }
 
@@ -246,14 +247,15 @@ footer ul {
 }
 
 #chef-2 img {
-    width: 40%;
+    width: 50%;
     object-fit: cover;
 }
 
 #description-2 {
+    width: 20%;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     background-color: #FFBD9B;
 }
 
