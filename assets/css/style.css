@@ -211,7 +211,25 @@ footer ul {
 
 /*the chefs*/
 
+#the-chefs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
 
+#the-chefs img {
+    width: 40%;
+    padding: 2rem;
+    object-fit: cover;
+}
+
+#description {
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+
+}
 
 /*gallery*/
 
