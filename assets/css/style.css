@@ -216,20 +216,50 @@ footer ul {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: black;
+    gap: 1rem;
 }
 
 #the-chefs img {
     width: 40%;
-    padding: 2rem;
     object-fit: cover;
 }
 
 #description {
-    background-color: blue;
     align-items: center;
     text-align: center;
+    background-color: #FFBD9B;
+    padding: 2rem;
 
+}
+
+#description h2 {
+    font-size: 200%;
+    font-weight: 300px;
+}
+
+#chef-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#chef-2 img {
+    width: 40%;
+    object-fit: cover;
+}
+
+#description-2 {
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #FFBD9B;
+}
+
+#description-2 h2 {
+    font-size: 200%;
+    font-weight: 300px;
 }
 
 /*gallery*/
