@@ -189,7 +189,21 @@ footer ul {
     justify-content: space-between;
 }
 
-/*workshops*/
+/*workshops styles*/
+
+#workshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#workshops > h1 {
+    font-size: 300%;
+    font-weight: 500px;
+}
 
 
 /*gallery*/
