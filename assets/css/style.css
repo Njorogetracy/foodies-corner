@@ -60,7 +60,7 @@ h2 {
     background-color: #FFD8CC;
 }
 
-.active a:hover{
+.active a:hover {
     background-color: #FFD8CC;
 }
 
@@ -200,7 +200,7 @@ footer ul {
     gap: 1rem;
 }
 
-#workshops > h1 {
+#workshops>h1 {
     font-size: 300%;
     font-weight: 500px;
 }
@@ -260,6 +260,26 @@ footer ul {
 #description-2 h2 {
     font-size: 200%;
     font-weight: 300px;
+}
+
+/*sign up button*/
+
+#btn-container {
+    text-align: center;
+}
+
+.sign-button {
+    border-radius: 50px;
+    font-size: 150%;
+    font-weight: 700px;
+    text-transform: uppercase;
+    align-self: center;
+    padding: 2rem;
+}
+
+.button {
+    background-color: #FFBD9B;
+    padding: 1rem;
 }
 
 /*gallery*/
