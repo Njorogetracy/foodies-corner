@@ -138,9 +138,10 @@ div {
 }
 
 .text-center p {
-    background-color: purple;;
+    background-color: purple;
+    ;
     text-align: center;
-    
+
 }
 
 /*more infomation section*/
@@ -182,7 +183,7 @@ footer ul {
     text-decoration: none;
 }
 
-.social-links > li {
+.social-links>li {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -192,7 +193,7 @@ footer ul {
     font-size: 160%;
     justify-content: space-between;
     color: black;
-}    
+}
 
 /*workshops*/
 
@@ -219,7 +220,7 @@ footer ul {
     transform: scale(1.2);
 }
 
-.zoom  {
+.zoom {
     cursor: pointer;
     transition: transform .2s;
     height: 10%;
