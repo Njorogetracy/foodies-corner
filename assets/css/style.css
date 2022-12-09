@@ -119,10 +119,11 @@ h2 {
     width: 100%;
     max-width: 100%;
     padding: 3rem;
-    gap: 1.5em;
+    gap: 2.5rem;
     box-sizing: border-box;
     background-color: #FFEEDB;
     justify-content: center;
+    justify-content: space-around;
 }
 
 div {
