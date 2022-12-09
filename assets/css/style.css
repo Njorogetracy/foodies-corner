@@ -24,7 +24,7 @@ p {
 /*headings and logo styling*/
 
 h1,
-h2 h3 {
+h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
