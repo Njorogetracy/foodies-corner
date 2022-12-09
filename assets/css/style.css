@@ -213,10 +213,10 @@ footer ul {
     object-fit: cover;
 }
 
-/*zoom image and hover*/
+/*make gallery page responsive code from https://youtu.be/R_tkus2uYI4*/
 
 .image-box img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .zoom  {
