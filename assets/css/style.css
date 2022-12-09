@@ -119,6 +119,7 @@ h2 {
     width: 100%;
     max-width: 100%;
     padding: 3rem;
+    gap: 1em;
     box-sizing: border-box;
     background-color: #FFEEDB;
     justify-content: center;
@@ -138,8 +139,6 @@ div {
 }
 
 .text-center p {
-    background-color: purple;
-    ;
     text-align: center;
 
 }
@@ -148,21 +147,17 @@ div {
 
 #join-us {
     text-align: center;
-    background-color: green;
 }
 
 #social {
-    background-color: yellow;
     text-align: center;
 }
 
 #explore {
-    background-color: blue;
     text-align: center;
 }
 
 #enjoy-food {
-    background-color: red;
     text-align: center;
 }
 
