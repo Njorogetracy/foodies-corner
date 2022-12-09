@@ -264,10 +264,38 @@ footer ul {
     font-weight: 300px;
 }
 
+#chef-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#chef-3 img {
+    width: 50%;
+    object-fit: contain;
+}
+
+#description-3 {
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: #FFBD9B;
+}
+
+#description-3 h2 {
+    font-size: 200%;
+    font-weight: 300px;
+}
+
 /*sign up button*/
 
 #btn-container {
     text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .sign-button {
