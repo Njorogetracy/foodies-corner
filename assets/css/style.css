@@ -182,13 +182,15 @@ footer ul {
 
 .social-links {
     display: flex;
+    justify-content: center;
     padding: 1em;
 }
 
 .social-links>li {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    justify-content: space-evenly;
+    margin: 0 30px;
+    
+    
 }
 
 .social-networks i {
