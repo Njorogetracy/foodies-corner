@@ -13,7 +13,7 @@ body {
     font-weight: 300;
     color: #0A1D37;
     background-color: #FFEEDB;
-    
+
 }
 
 p {
@@ -189,8 +189,6 @@ footer ul {
 .social-links>li {
     justify-content: space-evenly;
     margin: 0 30px;
-    
-    
 }
 
 .social-networks i {
@@ -199,7 +197,7 @@ footer ul {
     justify-content: space-between;
 }
 
-/*workshops styles*/
+/*workshops page styles*/
 
 #workshops {
     display: flex;
@@ -230,7 +228,7 @@ footer ul {
 }
 
 #the-chefs img {
-    width: 50%;
+    width: 30%;
     object-fit: cover;
 }
 
@@ -257,7 +255,7 @@ footer ul {
 }
 
 #chef-2 img {
-    width: 50%;
+    width: 30%;
     object-fit: cover;
 }
 
@@ -283,7 +281,7 @@ footer ul {
 }
 
 #chef-3 img {
-    width: 50%;
+    width: 30%;
     object-fit: contain;
 }
 
