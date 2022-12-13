@@ -169,6 +169,7 @@ div {
     background-color: rgba(255, 216, 204, .9);
 
     position: relative;
+    position: fixed;
 }
 
 footer {
@@ -320,7 +321,7 @@ footer ul {
     padding: 1rem;
 }
 
-/*gallery*/
+/*gallery page styles*/
 
 .image-box {
     display: flex;
@@ -330,7 +331,7 @@ footer ul {
 }
 
 .image-box img {
-    width: 30%;
+    width: 20%;
     max-width: 50%;
     padding: 1rem;
     object-fit: cover;
@@ -349,3 +350,25 @@ footer ul {
     width: 10%;
     margin: 0 auto;
 }
+
+/*sign-up page*/
+
+#form-container {
+    width: 40%;
+    padding: 5rem; 
+    justify-items: center;
+}
+
+#outer-form {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFBD9B;
+    border-radius: 20px;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 150%;
+}
+

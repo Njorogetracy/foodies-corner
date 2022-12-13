@@ -50,8 +50,8 @@
 
         <!--form and contact section-->
 
-        <section>
-            <div>
+        <section id="form-container">
+            <div id="outer-form">
                 <div>
                     <h2>Sign up!</h2>
                     <!--form-->
@@ -66,7 +66,20 @@
                         </div>
                         <div>
                             <label for="date">Book your class</label>
-                            <input type="date" name="date" id="" required>
+                            <select name="date" id="book-date" required>
+                                <option value="january">21/01/2023</option>
+                                <option value="february">18/02/2023</option>
+                                <option value="march">11/03/2023</option>
+                                <option value="april">29/04/2023</option>
+                                <option value="may">27/05/2023</option>
+                                <option value="june">17/06/2023</option>
+                                <option value="july">22/07/2023</option>
+                                <option value="august">19/08/2023</option>
+                                <option value="september">23/09/2023</option>
+                                <option value="october">14/10/2023</option>
+                                <option value="november">18/11/2023</option>
+                                <option value="december">16/12/2023</option>
+                            </select>
                         </div>
                         <div>
                             <label for="checkbox">Sign up for the newsletters</label>
