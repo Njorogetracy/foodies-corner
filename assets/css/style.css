@@ -13,6 +13,7 @@ body {
     font-weight: 300;
     color: #0A1D37;
     background-color: #FFEEDB;
+    
 }
 
 p {
@@ -123,6 +124,7 @@ h2 {
     background-color: #FFEEDB;
     justify-content: center;
     justify-content: space-around;
+
 }
 
 div {
@@ -163,9 +165,10 @@ div {
 /*footer elements*/
 
 .ftr-bottom {
-    position: fixed;
     bottom: 0;
     background-color: rgba(255, 216, 204, .9);
+
+    position: relative;
 }
 
 footer {
