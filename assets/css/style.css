@@ -397,6 +397,10 @@ input[type=checkbox], input[type=button], input[type=reset]  {
     height: 30px;
 }    
 
+::placeholder {
+    text-align: center;
+}
+
 .submit-form-button {
     width: 30%;
     border-radius: 25px;
