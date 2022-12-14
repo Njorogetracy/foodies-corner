@@ -354,21 +354,62 @@ footer ul {
 /*sign-up page*/
 
 #form-container {
-    width: 40%;
+    width: 100%;
     padding: 5rem; 
-    justify-items: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 #outer-form {
-    margin: 0 10px;
     display: flex;
-    flex-direction: row;
     background-color: #FFBD9B;
     border-radius: 20px;
-    width: 70%;
-    margin: 10px auto;
-    padding: 10px;
-    overflow: hidden;
+    width: 100%;
     font-size: 150%;
+    overflow: hidden;
+}
+
+.flex-container {
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.flex-container-item {
+    width: 50%;
+    margin: 5px;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input[type=text], input[type=email], .flex-container-item {
+    max-width: 90%;
+    height: 30px;
+}
+
+#book-date {
+    max-width: 90%;
+    height: 30px;
+}
+
+input[type=checkbox], input[type=button], input[type=reset]  {
+    max-width: 90%;
+    height: 30px;
+}    
+
+.submit-form-button {
+    width: 30%;
+    border-radius: 25px;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    background-color: #FFD8CC;
+}
+
+#map {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 

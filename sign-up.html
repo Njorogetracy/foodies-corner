@@ -56,15 +56,15 @@
                     <h2>Sign up!</h2>
                     <!--form-->
                     <form action="thankyou.html">
-                        <div>
+                        <div class="flex-container" class="flex-container-item">
                             <label for="user">Full Name</label>
                             <input type="text" placeholder="Your Name" required>
                         </div>
-                        <div>
+                        <div class="flex-container" class="flex-container-item">
                             <label for="email">Email Address</label>
                             <input type="email" placeholder="Your e-mail address" required>
                         </div>
-                        <div>
+                        <div class="flex-container" class="flex-container-item">
                             <label for="date">Book your class</label>
                             <select name="date" id="book-date" required>
                                 <option value="january">21/01/2023</option>
@@ -81,25 +81,22 @@
                                 <option value="december">16/12/2023</option>
                             </select>
                         </div>
-                        <div>
+                        <div class="flex-container" class="flex-container-item">
                             <label for="checkbox">Sign up for the newsletters</label>
-                            <input type="checkbox" name="checkbox" id="" required>
+                            <input type="checkbox" name="checkbox" required>
                         </div>
-                        <div>
-                            <input type="button" value="Submit" required>
-                            <input type="reset" value="Clear Form">
+                        <div class="flex-container" class="flex-container-item">
+                            <input type="submit" value="submit" class="submit-form-button" required>
                         </div>
                     </form>
                 </div>
             </div>
-            <div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.227222327826!2d4.428468515651934!3d51.91156537970346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c434e3ff562d23%3A0x2ce7f2e3fa40e1b6!2sGalvanistraat%2C%203029%20AD%20Rotterdam!5e0!3m2!1sen!2snl!4v1670958027835!5m2!1sen!2snl"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.227222327826!2d4.428468515651934!3d51.91156537970346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c434e3ff562d23%3A0x2ce7f2e3fa40e1b6!2sGalvanistraat%2C%203029%20AD%20Rotterdam!5e0!3m2!1sen!2snl!4v1670958027835!5m2!1sen!2snl"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
         </section>
-
+        
         <!--footer section-->
         <section>
             <footer>
