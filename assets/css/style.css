@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=Source+Serif+Pro&display=swap');
 
 * {
     margin: 0;
@@ -351,69 +351,84 @@ footer ul {
     margin: 0 auto;
 }
 
-/*sign-up page*/
+/*sign-up page, form and map styles*/
 
-#form-container {
+#contact-container {
     width: 100%;
-    padding: 5rem; 
+    height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
+    justify-content: center;
 }
 
-#outer-form {
-    display: flex;
-    background-color: #FFBD9B;
-    border-radius: 20px;
+#form-container {
+    max-width: 80%;
     width: 100%;
-    font-size: 150%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
     overflow: hidden;
 }
 
-.flex-container {
-    flex-direction: row;
+#flex-container {
     padding: 1rem;
+    background-color: #FFBD9B;
 }
 
-.flex-container-item {
+#flex-container h2 {
+    font-size: 200%;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.form {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.form label {
+    font-size: 150%;
+}
+
+.form input {
+    width: 80%;
+    border: none;
+    padding: 10px;
+    font-size: 100%;
+    border-radius: 0.3rem;
+}
+
+.flex-container-option select {
+    width: 80%;
+    border: none;
+    padding: 10px;
+    font-size: 100%;
+    border-radius: 0.3rem;
+}
+
+.form .checkbox {
+    width: 40px;
+}
+
+.form .submit-form-button {
     width: 50%;
-    margin: 5px;
-    justify-content: center;
-    gap: 1rem;
-}
-
-input[type=text], input[type=email], .flex-container-item {
-    max-width: 90%;
-    height: 30px;
-}
-
-#book-date {
-    max-width: 90%;
-    height: 30px;
-}
-
-input[type=checkbox], input[type=button], input[type=reset]  {
-    max-width: 90%;
-    height: 30px;
-}    
-
-::placeholder {
-    text-align: center;
-}
-
-.submit-form-button {
-    width: 30%;
-    border-radius: 25px;
-    padding: 1rem;
-    gap: 1rem;
-    align-items: center;
+    border: none;
     background-color: #FFD8CC;
+    font-size: 150%;
+    font-weight: 400;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-#map {
-    width: 50%;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
+.flex-container .submit-form-button:hover {
+    background: rgba(255, 216, 204, .7);
 }
 
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
