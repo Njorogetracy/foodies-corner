@@ -11,6 +11,7 @@
 body {
     font-family: source serif pro, sans-serif;
     font-weight: 300;
+    min-height: 100vh;
     color: #0A1D37;
     background-color: #FFEEDB;
 
@@ -19,6 +20,7 @@ body {
 #page-container {
     width: 100%;
     height: 100%;
+    min-height: 100vh;
     position: relative;
 }
 
@@ -197,13 +199,13 @@ div {
 /*footer elements*/
 
 .ftr-bottom {
-    bottom: 0;
     background-color: rgba(255, 216, 204, .9);
     position: absolute;
 }
 
-footer {
+body>#page-container>section>footer {
     height: 50px;
+    margin-top: auto;
     color: #0A1D37;
 }
 
@@ -391,9 +393,10 @@ footer ul {
 
 /*sign-up page, form and map styles*/
 
-#contact-container {
+#page-container #contact-container {
     width: 100%;
     height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -485,12 +488,12 @@ footer ul {
 }
 
 #thankyou-image {
-    width: 100%;  
+    width: 100%;
     height: 600px;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
 
 .thankyou-image {
@@ -523,6 +526,7 @@ footer ul {
     font-size: 200%;
     color: #0A1D37;
 }
+
 .thankyou-content p {
     font-size: 150%;
     text-align: center;
