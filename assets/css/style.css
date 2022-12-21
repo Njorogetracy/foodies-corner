@@ -454,3 +454,42 @@ footer ul {
     width: 100%;
     height: 100%;
 }
+
+/*thankyou page styles*/
+
+#thankyou-box {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#thankyou-image {
+    width: 100%;  
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;  
+}
+
+.thankyou-image {
+    width: 50%;
+    height: 500px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+#thankyou-content {
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: (1fr);
+    padding: 1rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
