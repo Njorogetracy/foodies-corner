@@ -122,16 +122,11 @@ h2 {
 #second-container {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    width: 100%;
-    max-width: 100%;
-    padding: 3rem;
-    gap: 2.5rem;
-    box-sizing: border-box;
-    background-color: #FFEEDB;
+    align-items: center;
     justify-content: center;
-    justify-content: space-around;
-
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
 }
 
 div {
@@ -139,6 +134,10 @@ div {
     max-width: 100%;
     flex-basis: 50%;
     justify-content: space-around;
+}
+
+.text-center {
+    max-width: 60%;
 }
 
 .text-center h2 {
@@ -149,6 +148,16 @@ div {
 .text-center p {
     text-align: center;
 
+}
+
+.about-section {
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    gap: 1.5rem;
+    overflow: hidden;
 }
 
 /*more infomation section*/
