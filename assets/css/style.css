@@ -22,7 +22,7 @@ body {
     position: relative;
 }
 
-p {
+body p {
     font-size: 150%;
     font-family: source serif pro, sans-serif;
     color: #0A1D37;
@@ -35,12 +35,14 @@ h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #0A1D37;
 }
 
 #logo {
     float: left;
     font-size: 150%;
     padding: 0.5rem;
+    color: #0A1D37;
 }
 
 /*navigation links*/
@@ -56,6 +58,7 @@ h2 {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+    color: #0A1D37;
 }
 
 #menu a {
@@ -64,10 +67,6 @@ h2 {
 }
 
 #menu a:hover {
-    background-color: #FFD8CC;
-}
-
-.active a:hover {
     background-color: #FFD8CC;
 }
 
@@ -143,11 +142,13 @@ div {
 .text-center h2 {
     font-size: 200%;
     text-align: center;
+    color: #0A1D37;
 }
 
 .text-center p {
     text-align: center;
     font-size: 130%;
+    color: #0A1D37;
 
 }
 
@@ -163,28 +164,34 @@ div {
 
 .about-section h2 {
     font-size: 200%;
+    color: #0A1D37;
 }
 
 .about-section p {
     font-size: 130%;
+    color: #0A1D37;
 }
 
 /*more infomation section*/
 
 #join-us {
     text-align: center;
+    color: #0A1D37;
 }
 
 #social {
     text-align: center;
+    color: #0A1D37;
 }
 
 #explore {
     text-align: center;
+    color: #0A1D37;
 }
 
 #enjoy-food {
     text-align: center;
+    color: #0A1D37;
 }
 
 /*footer elements*/
@@ -197,6 +204,7 @@ div {
 
 footer {
     height: 50px;
+    color: #0A1D37;
 }
 
 footer ul {
@@ -213,11 +221,12 @@ footer ul {
 .social-links>li {
     justify-content: space-evenly;
     margin: 0 30px;
+    color: #0A1D37;
 }
 
 .social-networks i {
     font-size: 160%;
-    color: #FFD8CC;
+    background-color: #0A1D37;
     justify-content: space-between;
 }
 
@@ -235,10 +244,12 @@ footer ul {
 #workshops>h1 {
     font-size: 300%;
     font-weight: 500px;
+    color: #0A1D37;
 }
 
 #workshops p {
     text-align: center;
+    color: #0A1D37;
 }
 
 /*the chefs*/
@@ -268,6 +279,7 @@ footer ul {
 #description h2 {
     font-size: 200%;
     font-weight: 300px;
+    color: #0A1D37;
 }
 
 #chef-2 {
@@ -294,6 +306,7 @@ footer ul {
 #description-2 h2 {
     font-size: 200%;
     font-weight: 300px;
+    color: #0A1D37;
 }
 
 #chef-3 {
@@ -320,6 +333,7 @@ footer ul {
 #description-3 h2 {
     font-size: 200%;
     font-weight: 300px;
+    color: #0A1D37;
 }
 
 /*sign up button*/
@@ -342,6 +356,7 @@ footer ul {
 .button {
     background-color: #FFBD9B;
     padding: 1rem;
+    color: #0A1D37;
 }
 
 /*gallery page styles*/
@@ -391,7 +406,7 @@ footer ul {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     border-radius: 0.5rem;
-    margin-bottom: 1rem;
+    margin: auto;
     overflow: hidden;
 }
 
@@ -404,6 +419,7 @@ footer ul {
     font-size: 200%;
     font-weight: 500;
     margin-bottom: 1rem;
+    color: #0A1D37;
 }
 
 .form {
@@ -413,6 +429,7 @@ footer ul {
 
 .form label {
     font-size: 150%;
+    color: #0A1D37;
 }
 
 .form input {
@@ -444,6 +461,7 @@ footer ul {
     border-radius: 15px;
     text-transform: uppercase;
     cursor: pointer;
+    color: #0A1D37;
 }
 
 .flex-container .submit-form-button:hover {
@@ -490,6 +508,43 @@ footer ul {
     grid-template-columns: (1fr);
     padding: 1rem;
     gap: 1rem;
-    margin-bottom: 1rem;
     box-sizing: border-box;
+}
+
+.thankyou-content {
+    width: 100%;
+    max-width: 100%;
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+
+.thankyou-content h1 {
+    text-align: center;
+    font-size: 200%;
+    color: #0A1D37;
+}
+.thankyou-content p {
+    font-size: 150%;
+    text-align: center;
+    color: #0A1D37;
+}
+
+.thankyou-btn-box {
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.thankyou-btn {
+    border-radius: 50px;
+    font-size: 150%;
+    font-weight: 700px;
+    text-transform: uppercase;
+    align-self: center;
+    padding: 2rem;
+}
+
+.btn-press {
+    background-color: #FFBD9B;
+    padding: 1rem;
 }
