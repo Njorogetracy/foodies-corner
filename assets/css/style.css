@@ -141,12 +141,13 @@ div {
 }
 
 .text-center h2 {
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
 }
 
 .text-center p {
     text-align: center;
+    font-size: 130%;
 
 }
 
@@ -157,7 +158,15 @@ div {
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem;
     gap: 1.5rem;
-    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.about-section h2 {
+    font-size: 200%;
+}
+
+.about-section p {
+    font-size: 130%;
 }
 
 /*more infomation section*/
