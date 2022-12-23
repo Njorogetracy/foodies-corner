@@ -6,7 +6,7 @@
     border: none;
 }
 
-/*body styles*/
+/*body and general styles*/
 
 body {
     font-family: source serif pro, sans-serif;
@@ -24,6 +24,13 @@ body {
     position: relative;
 }
 
+div {
+    width: 100%;
+    max-width: 100%;
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+
 body p {
     font-size: 150%;
     font-family: source serif pro, sans-serif;
@@ -38,6 +45,12 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #0A1D37;
+}
+
+#logo-box {
+    width: 20%;
+    height: 50px;
+    float: left;
 }
 
 #logo {
@@ -58,6 +71,7 @@ h2 {
 
 #menu li {
     float: left;
+    font-family: oswald;
     list-style-type: none;
     margin-right: 30px;
     color: #0A1D37;
@@ -65,7 +79,7 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #0A1D37;
 }
 
 #menu a:hover {
@@ -105,7 +119,8 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    align-items: center;
+    align-items: right;
+    text-align: right;
 
     width: 500px;
     height: 400px;
@@ -130,9 +145,9 @@ h2 {
     padding: 1rem;
 }
 
-div {
+#second-container>div {
     width: 100%;
-    max-width: 100%;
+    max-width: 90%;
     flex-basis: 50%;
     justify-content: space-around;
 }
@@ -196,7 +211,7 @@ div {
     color: #0A1D37;
 }
 
-/*footer elements*/
+/*footer elements styles*/
 
 .ftr-bottom {
     background-color: rgba(255, 216, 204, .9);
@@ -206,6 +221,7 @@ div {
 body>#page-container>section>footer {
     height: 50px;
     margin-top: auto;
+    list-style-type: none;
     color: #0A1D37;
 }
 
@@ -223,13 +239,14 @@ footer ul {
 .social-links>li {
     justify-content: space-evenly;
     margin: 0 30px;
-    color: #0A1D37;
+    list-style-type: none;
 }
 
 .social-networks i {
     font-size: 160%;
     background-color: #0A1D37;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 /*workshops page styles*/
@@ -377,7 +394,7 @@ footer ul {
     object-fit: cover;
 }
 
-/*make gallery page responsive code from https://youtu.be/R_tkus2uYI4*/
+/*make gallery page responsive code and inspirition from https://youtu.be/R_tkus2uYI4*/
 
 .image-box img:hover {
     transform: scale(1.1);
@@ -551,4 +568,24 @@ footer ul {
 .btn-press {
     background-color: #FFBD9B;
     padding: 1rem;
+}
+
+/* media queries */
+
+/* for medium sized screens */
+@media  screen and (max-width: 1125px) {
+    #logo-box {
+        width: 30%;
+    }
+    #logo {
+        font-size: 25px;
+    }
+
+    #menu li {
+        font-size: 20px;
+    }
+
+    #menu a:hover {
+        background-color: #FFD8CC;
+    }
 }
