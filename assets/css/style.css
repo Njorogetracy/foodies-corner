@@ -243,6 +243,10 @@ footer ul {
     list-style-type: none;
 }
 
+.social-links a {
+    color: #0A1D37;
+}
+
 .social-networks i {
     font-size: 160%;
     background-color: #0A1D37;
@@ -801,6 +805,33 @@ footer ul {
         .map iframe {
             height: 400px;
         }
+
+        /* thankyou page */
+
+        #thankyou-box {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        #thankyou-image {
+            width: 100%;
+        }
+
+        .thankyou-image {
+            width: 50%;
+        }
+
+        .thankyou-content h1 {
+            font-size: 25px;
+        }
+
+        .thankyou-content p {
+            font-size: 15px;
+        }
+
+        .thankyou-btn {
+            font-size: 18px;
+        }
      } 
  
 /* for medium sized screens including tablets */
@@ -865,8 +896,8 @@ footer ul {
            font-size: 14px;
        }
 
-       /* button */
-       .sign-button button {
+       /* sign up button on workshop page */
+       .sign-button {
         font-size: 100%;
     }
       
@@ -914,5 +945,11 @@ footer ul {
         width: 90%;
         margin: 0 auto;
         column-count: 2;
+        margin-top: 2rem;
+    }
+
+    /* footer  */
+    .ftr-bottom {
+        bottom: 0;
     }
 }
