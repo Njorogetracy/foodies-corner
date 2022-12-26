@@ -266,7 +266,7 @@ footer ul {
     gap: 1rem;
 }
 
-#workshops>h1 {
+#workshops>h2 {
     font-size: 300%;
     font-weight: 500;
     color: #0A1D37;
@@ -363,7 +363,7 @@ footer ul {
 /*sign up button*/
 #btn-container {
     text-align: center;
-    padding: 1rem;
+    padding: 5rem;
     box-sizing: border-box;
 }
 
@@ -374,6 +374,8 @@ footer ul {
     text-transform: uppercase;
     align-self: center;
     padding: 2rem;
+    text-decoration: none;
+    color: #0A1D37;
 }
 
 .button {
@@ -556,8 +558,9 @@ footer ul {
 
 .thankyou-btn-box {
     text-align: center;
-    padding: 1rem;
+    padding: 4rem;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 .thankyou-btn {
@@ -567,6 +570,9 @@ footer ul {
     text-transform: uppercase;
     align-self: center;
     padding: 2rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: #0A1D37;
 }
 
 .btn-press {
@@ -620,7 +626,7 @@ footer ul {
         margin: 0 auto;
     }
 
-    #workshops h1 {
+    #workshops h2 {
         font-size: 30px;
     }
 
@@ -734,7 +740,7 @@ footer ul {
          margin: 0 auto;
      }
  
-     #workshops h1 {
+     #workshops h2 {
          font-size: 25px;
      }
  
@@ -867,7 +873,7 @@ footer ul {
         margin: 0 auto;
     }
 
-    #workshops h1 {
+    #workshops h2 {
         font-size: 25px;
     }
 
