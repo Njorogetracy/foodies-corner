@@ -67,7 +67,7 @@ h2 {
     font-size: 150%;
     letter-spacing: 4px;
     float: right;
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 #menu li {
@@ -669,6 +669,7 @@ footer ul {
     }
 
     #menu {
+        padding: 0;
         clear: left;
         float: left;
         font-size: 20px;
@@ -724,28 +725,34 @@ footer ul {
      }
  
      #chefs-section {
-         width: 90%;
-         margin: 0 auto;
+            width: 90%;
+            height: 1125px;
+            gap: 1rem;
+            margin: 0 auto;
+        }
+
+        #chefs-section img {
+            width: 35%;
+        }
+    
+        #chefs-section h2 {
+            font-size: 18px;
+        }
+    
+        #chefs-section p {
+            font-size: 14px;
+        }
+   
+        /* gallery */
+   
+        .image-box {
+            width: 90%;
+            height: 1125px;
+            margin: 0 auto;
+           column-count: 3;
+        }        
      } 
  
-     #chefs-section img {
-         width: 35%;
-     }
- 
-     #chefs-section h2 {
-         font-size: 18px;
-     }
- 
-     #chefs-section p {
-         font-size: 14px;
-     }
-
-     /* gallery */
-
-     .image-box {
-        column-count: 3;
-     }
-}
 
 @media screen and (max-width: 740px) {
     #logo-box {
@@ -762,6 +769,7 @@ footer ul {
     }
 
     #menu {
+        padding: 0;
         float: none;
         display: flex;
         justify-content: center;
@@ -777,6 +785,37 @@ footer ul {
     /* gallery */
 
     .image-box {
+        width: 80%;
+        height: 1125px;
         column-count: 3;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #logo-box {
+        width: 100%;
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #menu {
+        padding: 0;
+        float: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu li {
+        font-size: 12px;
+        margin-right: 10px;
+        text-align: center;
     }
 }
