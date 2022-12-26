@@ -72,7 +72,7 @@ h2 {
 
 #menu li {
     float: left;
-    font-family: oswald;
+    font-family: oswald, sans-serif;
     list-style-type: none;
     margin-right: 30px;
     color: #0A1D37;
@@ -191,6 +191,9 @@ h2 {
 }
 
 /*more infomation section*/
+.about-section i {
+    color: #0A1D37;
+}
 
 #join-us {
     text-align: center;
@@ -213,7 +216,6 @@ h2 {
 }
 
 /*footer elements styles*/
-
 .ftr-bottom {
     background-color: rgba(255, 216, 204, .9);
     position: absolute;
@@ -255,7 +257,6 @@ footer ul {
 }
 
 /*workshops page styles*/
-
 #workshops {
     display: flex;
     flex-direction: column;
@@ -277,7 +278,6 @@ footer ul {
 }
 
 /*the chefs*/
-
 #the-chefs {
     display: flex;
     justify-content: center;
@@ -361,7 +361,6 @@ footer ul {
 }
 
 /*sign up button*/
-
 #btn-container {
     text-align: center;
     padding: 1rem;
@@ -384,7 +383,6 @@ footer ul {
 }
 
 /*gallery page styles*/
-
 .image-box {
     width: 100%;
     height: 100%;
@@ -416,7 +414,6 @@ footer ul {
 }
 
 /*sign-up page, form and map styles*/
-
 #contact-container {
     width: 100%;
     height: 100%;
@@ -501,7 +498,6 @@ footer ul {
 }
 
 /*thankyou page styles*/
-
 #thankyou-box {
     width: 100%;
     height: 600px;
@@ -763,7 +759,7 @@ footer ul {
             font-size: 14px;
         }
 
-        /* button */
+        /* sign up button */
         .sign-button button {
             font-size: 100%;
         }
@@ -777,7 +773,7 @@ footer ul {
             column-count: 3;
         }  
         
-        /* sign up form */
+        /* sign up form and map */
         #form-container {
             margin: 0 auto;
             width: 90%;
