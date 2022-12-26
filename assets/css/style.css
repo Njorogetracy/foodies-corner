@@ -9,7 +9,7 @@
 /*body and general styles*/
 
 body {
-    font-family: source serif pro, sans-serif;
+    font-family: "source serif pro", sans-serif;
     font-weight: 300;
     min-height: 100vh;
     color: #0A1D37;
@@ -33,7 +33,7 @@ div {
 
 body p {
     font-size: 150%;
-    font-family: source serif pro, sans-serif;
+    font-family: "source serif pro", sans-serif;
     color: #0A1D37;
 }
 
@@ -120,7 +120,6 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    align-items: right;
     text-align: right;
 
     width: 500px;
@@ -268,7 +267,7 @@ footer ul {
 
 #workshops>h1 {
     font-size: 300%;
-    font-weight: 500px;
+    font-weight: 500;
     color: #0A1D37;
 }
 
@@ -302,7 +301,7 @@ footer ul {
 
 #description h2 {
     font-size: 200%;
-    font-weight: 300px;
+    font-weight: 300;
     color: #0A1D37;
 }
 
@@ -329,7 +328,7 @@ footer ul {
 
 #description-2 h2 {
     font-size: 200%;
-    font-weight: 300px;
+    font-weight: 300;
     color: #0A1D37;
 }
 
@@ -356,7 +355,7 @@ footer ul {
 
 #description-3 h2 {
     font-size: 200%;
-    font-weight: 300px;
+    font-weight: 300;
     color: #0A1D37;
 }
 
@@ -370,7 +369,7 @@ footer ul {
 .sign-button {
     border-radius: 50px;
     font-size: 150%;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
     align-self: center;
     padding: 2rem;
@@ -528,7 +527,7 @@ footer ul {
     max-width: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: (1fr);
+    grid-template-columns: 1fr;
     padding: 1rem;
     gap: 1rem;
     box-sizing: border-box;
@@ -562,7 +561,7 @@ footer ul {
 .thankyou-btn {
     border-radius: 50px;
     font-size: 150%;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
     align-self: center;
     padding: 2rem;
@@ -923,7 +922,7 @@ footer ul {
 
     #menu {
         padding: 0;
-        float: center;
+        float: none;
         display: flex;
         justify-content: center;
         align-items: center;
