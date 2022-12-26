@@ -877,11 +877,6 @@ footer ul {
         margin: 0 auto;
         column-count: 3;
     }
-
-    /* sign up form
-    #contact-container {
-        grid-template-columns: 1fr;
-    } */
 }
 
 /* for smaller sized screens */
