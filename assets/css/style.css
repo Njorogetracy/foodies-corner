@@ -218,6 +218,7 @@ h2 {
 .ftr-bottom {
     background-color: rgba(255, 216, 204, .9);
     position: absolute;
+    bottom: 0;
 }
 
 body>#page-container>section>footer {
@@ -392,9 +393,9 @@ footer ul {
 }
 
 .image-box img {
-    width: 30%;
-    max-width: 22%;
-    padding: 0.7rem;
+    width: 25%;
+    max-width: 25%;
+    padding: 0.5rem;
     object-fit: cover;
 }
 
@@ -469,6 +470,7 @@ footer ul {
     padding: 10px;
     font-size: 100%;
     border-radius: 0.3rem;
+    color: #0A1D37;
 }
 
 .form .checkbox {

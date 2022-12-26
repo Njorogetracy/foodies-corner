@@ -59,15 +59,16 @@
                         <form action="thankyou.html" class="form">
                             <div>
                                 <label for="user">Full Name</label>
-                                <input type="text" placeholder="Your Name" required>
+                                <input type="text" placeholder="Your Name" id="user" required>
                             </div>
                             <div>
                                 <label for="email">Email Address</label>
-                                <input type="email" placeholder="Your e-mail address" required>
+                                <input type="email" placeholder="Your e-mail address" id="email" required>
                             </div>
                             <div class="flex-container-option">
                                 <label for="date" class="book-date">Book your class</label>
-                                <select name="date" id="book-date" required>
+                                <select name="date" id="date" required>
+                                    <option value="">Choose Date</option>
                                     <option value="january">21/01/2023</option>
                                     <option value="february">18/02/2023</option>
                                     <option value="march">11/03/2023</option>
@@ -84,7 +85,7 @@
                             </div>
                             <div>
                                 <label for="checkbox">Sign up for the newsletters</label>
-                                <input type="checkbox" name="checkbox" class="checkbox" required>
+                                <input type="checkbox" name="checkbox" class="checkbox" id="checkbox">
                             </div>
                             <div>
                                 <input type="submit" value="submit" class="submit-form-button" required>
@@ -103,7 +104,7 @@
         </section>
 
         <!--footer section-->
-        <section>
+        <div class="ftr-bottom">
             <footer>
                 <div class="ftr-bottom">
                     <ul class="social-links">
@@ -134,7 +135,7 @@
                     </ul>
                 </div>
             </footer>
-        </section>
+        </div>
 
         <!-- font awesome script -->
         <script src="https://kit.fontawesome.com/b59d6ce89e.js" crossorigin="anonymous"></script>
