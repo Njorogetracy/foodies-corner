@@ -575,7 +575,7 @@ footer ul {
 
 /* media queries */
 
-/* for medium sized screens */
+/* for medium sized and large screens */
 @media  screen and (max-width: 1125px) {
     #logo-box {
         width: 30%;
@@ -652,6 +652,7 @@ footer ul {
 
 }
 
+/* for medium sized screens */
 @media screen and (max-width: 950px) and (max-width: 700px) {
     #logo-box {
         width: 100%;
@@ -753,7 +754,7 @@ footer ul {
         }        
      } 
  
-
+/* for medium sized screens including tablets */
 @media screen and (max-width: 740px) {
     #logo-box {
         width: 100%;
@@ -791,6 +792,7 @@ footer ul {
     }
 }
 
+/* for smaller sized screens */
 @media screen and (max-width: 480px) {
     #logo-box {
         width: 100%;
