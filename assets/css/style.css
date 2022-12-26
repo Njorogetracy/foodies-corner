@@ -413,7 +413,7 @@ footer ul {
 
 /*sign-up page, form and map styles*/
 
-#page-container #contact-container {
+#contact-container {
     width: 100%;
     height: 100%;
     min-height: 100vh;
@@ -629,7 +629,7 @@ footer ul {
 
     #chefs-section {
         width: 90%;
-        height: 1125px;
+        height: 100%;
         gap: 1rem;
         margin: 0 auto;
     }
@@ -709,6 +709,22 @@ footer ul {
          flex-direction: column;
          margin: 0 auto;
      }
+
+     .text-center h2 {
+        font-size: 25px;
+     }
+
+     .text-center p {
+        font-size: 18px;
+     }
+
+     .about-section h2 {
+        font-size: 25px;
+     }
+
+     .about-section p {
+        font-size: 18px;
+     }
  
      /* workshops page */
  
@@ -727,8 +743,7 @@ footer ul {
  
      #chefs-section {
             width: 90%;
-            height: 1125px;
-            gap: 1rem;
+            height: 100%;
             margin: 0 auto;
         }
 
@@ -743,15 +758,49 @@ footer ul {
         #chefs-section p {
             font-size: 14px;
         }
+
+        /* button */
+        .sign-button button {
+            font-size: 100%;
+        }
    
         /* gallery */
    
         .image-box {
             width: 90%;
-            height: 1125px;
+            height: 100%;
             margin: 0 auto;
-           column-count: 3;
-        }        
+            column-count: 3;
+        }  
+        
+        /* sign up form */
+        #form-container {
+            margin: 0 auto;
+            width: 90%;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .form label {
+            font-size: 20px;
+        }
+
+        .form input {
+            font-size: 14px;
+        }
+
+        .flex-container-option select {
+            font-size: 14px;
+        }
+
+        .form .submit-form-button {
+            font-size: 20px;
+        }
+
+        .map iframe {
+            height: 400px;
+        }
      } 
  
 /* for medium sized screens including tablets */
@@ -782,14 +831,57 @@ footer ul {
         margin-right: 15px;
         text-align: center;
     }
+
+    /* workshops page */
+ 
+    #workshops {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #workshops h1 {
+        font-size: 25px;
+    }
+
+    #workshops p {
+        font-size: 15px;
+    }
+
+    #chefs-section {
+           width: 90%;
+           height: 100%;
+           margin: 0 auto;
+       }
+
+       #chefs-section img {
+           width: 35%;
+       }
+   
+       #chefs-section h2 {
+           font-size: 18px;
+       }
+   
+       #chefs-section p {
+           font-size: 14px;
+       }
+
+       /* button */
+       .sign-button button {
+        font-size: 100%;
+    }
       
     /* gallery */
 
     .image-box {
-        width: 80%;
-        height: 1125px;
+        width: 90%;
+        margin: 0 auto;
         column-count: 3;
     }
+
+    /* sign up form
+    #contact-container {
+        grid-template-columns: 1fr;
+    } */
 }
 
 /* for smaller sized screens */
@@ -819,5 +911,13 @@ footer ul {
         font-size: 12px;
         margin-right: 10px;
         text-align: center;
+    }
+
+    /* gallery */
+    
+    .image-box {
+        width: 90%;
+        margin: 0 auto;
+        column-count: 2;
     }
 }
