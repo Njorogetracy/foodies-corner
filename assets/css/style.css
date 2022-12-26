@@ -934,6 +934,14 @@ footer ul {
         text-align: center;
     }
 
+    .hero-image {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: left;
+
+    }
+
     /* gallery */
     
     .image-box {
