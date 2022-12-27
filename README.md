@@ -198,3 +198,31 @@ This website has been written using HTML and CSS only
 
 <br>
 
+## Testing 
+
+Testing waas performed across a range of devices, including:
+- Lenovo ThinkVision T24i-20 (1920 x 1080)
+- Dell XPS 9315 (1920 x 1200)
+- HP Envy (1920 x 1080)
+- Iphone 13 pro
+- Iphone SE 2020
+
+
+### Function Testing 
+
+
+| Page | Test | Completed |
+| :--- | :--- | :-------- |
+| All  | Logo links back to homepage | Yes | 
+| All  | Navigation links to relevant page | Yes |
+| All  | Social media icons open in new tab| Yes |
+| All  | External links open in correct pages | Yes |
+| Homepage | Images and texts are responsive | Yes |
+| Workshop | Button directs to relevant page | Yes |
+| Gallery  | Images are responsive           | Yes |
+| Sign-up  | Required elements are active on the form | Yes |
+| Sign-up  | Submit button directs to thank you page | Yes |
+| Sign-up  | Map is responsive and directs to larger map | Yes |
+| Thank-you | Button links back to homepage  | Yes |           
+
+<br>
