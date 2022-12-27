@@ -389,17 +389,21 @@ footer ul {
 .image-box {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 25vw);
+    gap: 1rem;
+    padding: 2rem;
     box-sizing: border-box;
-    justify-content: center;
+
 }
 
 .image-box img {
-    width: 25%;
-    max-width: 25%;
-    padding: 0.5rem;
+    width: 95%;
+    height: 95%;
     object-fit: cover;
+    display: inline-block;
+    align-items: center;
 }
 
 /*make gallery page responsive code and inspirition from https://youtu.be/R_tkus2uYI4*/
@@ -411,8 +415,6 @@ footer ul {
 .zoom {
     cursor: pointer;
     transition: transform .2s;
-    height: 10%;
-    width: 10%;
     margin: 0 auto;
 }
 
@@ -910,8 +912,10 @@ footer ul {
 
     .image-box {
         width: 90%;
-        margin: 0 auto;
-        column-count: 3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 40vw);
+        padding: 2rem;
     }
 }
 
@@ -956,9 +960,10 @@ footer ul {
     
     .image-box {
         width: 90%;
-        margin: 0 auto;
-        column-count: 2;
-        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 40vw);
+        padding: 2rem;
     }
 
     /* footer  */

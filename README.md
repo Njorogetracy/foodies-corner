@@ -164,3 +164,23 @@ This website consists of five pages, four accesssible through the  navigation me
 - Include a buttton that redirects to home page
 
 ![Thankyou page](documentation/readme-images/thankyou-pg.png)
+
+## Technology Used
+
+This website has been written using HTML and CSS only
+
+<br>
+
+### Frameworks, Librabries and Programs Used
+- Githud: Storing and hostinf my code/repository
+- Gitpod: Code editor for writing my code and storing other images/files
+- Font Awesome: For icons used in the site
+- Colorhunt: For choosing the palette to be used in the website
+- Google Fonts: To import the fonts used throughout the site- Pexels: Stock images
+- Google DevTools: Used throughout the site's creation to test responsiveness and tweak layout
+- Balsamiq: Wireframe software
+- Am I Responsive: To create a visual of the website across different device sizes
+- Tinypng: resize images 
+-  [BIRME](https://www.birme.net/?) To convert images to webp
+
+<br>
