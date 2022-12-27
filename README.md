@@ -189,12 +189,12 @@ This website has been written using HTML and CSS only
 - Tinypng: resize images 
 - [BIRME](https://www.birme.net/?) To convert images to webp
 - [Pexels](https://www.pexels.com/) For images used in the website
-- [YouTube](https://www.youtube.com/)
-- [W3schools](https://www.w3schools.com/)
-- [Google Maps](https://www.google.com/)
-- [Freecodecamp](https://www.freecodecamp.org/)
-- [Lighthouse](https://developers.google.com/web)
-- [Pair fonts](https://pairfonts.com/)
+- [YouTube](https://www.youtube.com/) For inspiration and coding tutorials
+- [W3schools](https://www.w3schools.com/) For coding questions and reference
+- [Google Maps](https://www.google.com/) For embedded map link
+- [Freecodecamp](https://www.freecodecamp.org/) For coding questions and reference
+- [Lighthouse](https://developers.google.com/web) To test performance of website
+- [Pair fonts](https://pairfonts.com/) To visualize font pairing
 
 <br>
 
