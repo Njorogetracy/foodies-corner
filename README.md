@@ -226,3 +226,9 @@ Testing waas performed across a range of devices, including:
 | Thank-you | Button links back to homepage  | Yes |           
 
 <br>
+
+### Performance 
+  
+The website performance was tested using [Lighthouse](https://developers.google.com/web)
+
+For Mobile Devices

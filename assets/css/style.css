@@ -952,7 +952,8 @@ footer ul {
         width: 100%;
         height: 600px;
         object-fit: cover;
-        object-position: left;
+        object-position: center;
+        background-repeat: no-repeat;
 
     }
 
