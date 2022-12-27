@@ -395,15 +395,17 @@ footer ul {
     gap: 1rem;
     padding: 2rem;
     box-sizing: border-box;
+    place-items: center;
 
 }
 
 .image-box img {
     width: 95%;
     height: 95%;
+    margin: 0 auto;
     object-fit: cover;
-    display: inline-block;
-    align-items: center;
+    display: block;
+    place-items: center;
 }
 
 /*make gallery page responsive code and inspirition from https://youtu.be/R_tkus2uYI4*/
