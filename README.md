@@ -157,3 +157,10 @@ This website consists of five pages, four accesssible through the  navigation me
 
 ![sign-up](documentation/readme-images/signup-page.png)
 
+### Thank you page
+- Includes an image
+- Includes thank you message
+- Includes a booking confirmation message
+- Include a buttton that redirects to home page
+
+![Thankyou page](documentation/readme-images/thankyou-pg.png)
