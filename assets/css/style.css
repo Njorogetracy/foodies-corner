@@ -218,11 +218,12 @@ h2 {
 .ftr-bottom {
     background-color: rgba(255, 216, 204, .9);
     position: absolute;
+    height: 50px;
     bottom: 0;
 }
 
 body>#page-container>section>footer {
-    height: 50px;
+    height: 20px;
     margin-top: auto;
     list-style-type: none;
     color: #0A1D37;
