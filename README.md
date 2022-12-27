@@ -169,6 +169,8 @@ This website consists of five pages, four accesssible through the  navigation me
 
 ![Thankyou page](documentation/readme-images/thankyou-pg.png)
 
+<br>
+
 ## Technology Used
 
 This website has been written using HTML and CSS only
@@ -185,6 +187,14 @@ This website has been written using HTML and CSS only
 - Balsamiq: Wireframe software
 - Am I Responsive: To create a visual of the website across different device sizes
 - Tinypng: resize images 
--  [BIRME](https://www.birme.net/?) To convert images to webp
+- [BIRME](https://www.birme.net/?) To convert images to webp
+- [Pexels](https://www.pexels.com/) For images used in the website
+- [YouTube](https://www.youtube.com/)
+- [W3schools](https://www.w3schools.com/)
+- [Google Maps](https://www.google.com/)
+- [Freecodecamp](https://www.freecodecamp.org/)
+- [Lighthouse](https://developers.google.com/web)
+- [Pair fonts](https://pairfonts.com/)
 
 <br>
+
