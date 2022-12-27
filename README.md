@@ -46,3 +46,65 @@ Foodies Corner is an imagined website in partial fulfilment with the first miles
 - Provide information about available dates and facilitators
 - Offer a simple way to sign up for the classes 
 
+### User Goals
+- Find information on what foodies corner offers
+- Find information on facilitators 
+- Find information on how to sign up for the workshops 
+
+## User Experience
+
+### Target Audience 
+- People who enjoy food and love to cook
+- People seeking to learn a new skill or acquire a new hobby
+- People seeking to improve their cooking skills 
+- People seeking to meet new people
+
+### User Stories 
+
+#### First-time User
+
+As a first-time visitor I want to:
+
+1. Information about foodies corner so  I can decide if I want to sign up
+2. See Pictures of food that has been prepared during the workshops
+3. See who is involved in teaching the workshops
+4. Easily sign up for the classes
+5. Easily navigate through the pages
+6. Find directions to the workshop location using the map
+
+#### Returning User 
+
+As a returning-user I want to:
+
+1. Easily sign up for classes
+2. Easily access social media pages using links
+3. Easily share the website as well as the social links with people
+
+## Design 
+
+### Colour 
+
+This website uses a palette of pastel colours that are subtle yet eye catching to attract and keep users in the website. This palette was created using [Colorhunt](https://colorhunt.co/palette/ffeedbffd8ccffbd9b0a1d37) website
+
+![Image of colour palette from colorhunt.co](documentation/readme-images/Color%20Hunt%20Palette%20ffeedbffd8ccffbd9b0a1d37.png)
+
+<br>
+
+### Typography 
+
+[Google Fonts](https://fonts.google.com/) was used to source the font styles used throughout the website:
+- Oswald: Used for the logo and all headings
+- Source Serif Pro: Used for main body text
+
+
+These fonts were chosen to be in order to give the website a simple and clean look. They were also chosen to ensure accessibility and readability 
+
+<br>
+
+### Wireframes 
+
+Wireframes were created using [Balsamiq Wireframing Software](https:/balsamiq.com/)
+
+View wireframes [here](https://github.com/Njorogetracy/foodies-corner/blob/main/documentation/wireframes/foodiescorner 1.pdf)
+
+
