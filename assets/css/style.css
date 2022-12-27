@@ -807,6 +807,7 @@ footer ul {
 
         .map iframe {
             height: 400px;
+            padding-bottom: 5rem;
         }
 
         /* thankyou page */
