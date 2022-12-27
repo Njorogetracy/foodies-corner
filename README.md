@@ -149,6 +149,10 @@ This website consists of five pages, four accesssible through the  navigation me
 ![Sign up Button](documentation/readme-images/signup-button.png)
 
 ### Gallery 
+- Contains images of the food prepared during workshops
+- Images zoom out when hovered on
+
+![Gallery](documentation/readme-images/gallery-page.png)
 
 ### Sign-up!
 - Includes a form where users can sign up for the workshops
