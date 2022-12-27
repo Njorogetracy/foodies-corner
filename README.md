@@ -107,5 +107,54 @@ Wireframes were created using [Balsamiq Wireframing Software](https:/balsamiq.co
 
 View wireframes [here](https://github.com/Njorogetracy/foodies-corner/blob/main/documentation/wireframes/foodiescorner 1.pdf)
 
+## Features 
 
+
+This website consists of five pages, four accesssible through the  navigation menu (index/homepage, workshops, gallery and sign up page). The last page is thank you page which the user will be taken to after signing up and they can then be redirected back to the homepage.
+
+### Logo and Navigation Bar
+- It is featured on all five pages 
+- The logo when clicked brings user back to the homepage
+- It makesnavigation through the website easy
+- When the user hovers over any of the navigation menu items, they are highlighted
+
+![Logo and Navbar](documentation/readme-images/navbar.png)
+
+### Hero Image
+
+- Introduce the user to the website
+- Includes a page name of the website(Foodies Corner)
+
+![Hero image](documentation/readme-images/heroimage.png)
+
+### Description Sections
+- Gives the user a brief description about the website
+- Gives the user benefits of being part of Foodies Corner
+
+![Description](documentation/readme-images/about.png)
+
+### Footer
+- Contains socia media icons which when clicked opens in a new tab
+
+![Footer](documentation/readme-images/Screenshot_20221227_024454.png)
+
+### Workshops
+- Gives a description of what we offer
+- Gives a description as well as images of the facilitators
+- Includes sign up button which when clicked takes one to the sign up page
+
+![workshops Intro](documentation/readme-images/workshopintro.png)
+
+![Facilitators](documentation/readme-images/facilitators.png)
+
+![Sign up Button](documentation/readme-images/signup-button.png)
+
+### Gallery 
+
+### Sign-up!
+- Includes a form where users can sign up for the workshops
+- Includes map with directions to the workshop location
+- Once form is filled and submitted, the user is directed to a thankyou page
+
+![sign-up](documentation/readme-images/signup-page.png)
 
