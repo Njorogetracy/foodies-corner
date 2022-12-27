@@ -109,7 +109,6 @@ View wireframes [here](https://github.com/Njorogetracy/foodies-corner/blob/main/
 
 ## Features 
 
-
 This website consists of five pages, four accesssible through the  navigation menu (index/homepage, workshops, gallery and sign up page). The last page is thank you page which the user will be taken to after signing up and they can then be redirected back to the homepage.
 
 ### Logo and Navigation Bar
