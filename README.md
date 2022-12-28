@@ -15,25 +15,25 @@ Foodies Corner is an imagined website targeted towards people who love food and 
     - [Site Owner Goals](#site-owner-goal)
     - [User Goals](#user-goals)
 2. [User Experience](#user-experience)
-    - [Target Audience](target-audience)
-    - [User Stories](user-stories)   
-3. [Design](design)
-    - [Colour](colour)
-    - [Typography](typography)
-    - [Wireframes](wireframes)
-4. [Features](features)
-5. [Testing](testing)
-    - [Function Testing](function-testing)
-    - [Perfomance](perfomance)
-    - [Validation](validation)
-    - [HTML](HTML)
-    - [CSS](CSS)
-    - [Browser Compatibility](browser-compatibility)
-    - [Bugs](bugs)
-6.  [Version Control](version-control)
-7.  [Deployment](deployment)
-8.  [Credits](credits)
-9.  [Acknowledgements](acknowledgements)
+    - [Target Audience](#target-audience)
+    - [User Stories](#user-stories)   
+3. [Design](#design)
+    - [Colour](#colour)
+    - [Typography](#typography)
+    - [Wireframes](#wireframes)
+4. [Features](#features)
+5. [Testing](#testing)
+    - [Function Testing](#function-testing)
+    - [Perfomance](#perfomance)
+    - [Validation](#validation)
+    - [HTML](#HTML)
+    - [CSS](#CSS)
+    - [Browser Compatibility](#browser-compatibility)
+    - [Bugs](#bugs)
+6.  [Version Control](#version-control)
+7.  [Deployment](#deployment)
+8.  [Credits](#credits)
+9.  [Acknowledgements](#acknowledgements)
 
 <br>
 
@@ -231,4 +231,199 @@ Testing waas performed across a range of devices, including:
   
 The website performance was tested using [Lighthouse](https://developers.google.com/web)
 
+For Desktops:
+
+<details>
+<summary>Homepage</summary>
+
+![Homepage lighthouse screeshot](documentation/readme-images/desktop-indexpage.png)
+</details>
+
+<details>
+<summary>Workshops</summary>
+
+![Workshops lighthouse screeshot](documentation/readme-images/desktop-workshop.png)
+</details>
+
+<details>
+<summary>Gallery</summary>
+
+![Gallery lighthouse screeshot](documentation/readme-images/desktop-gallerypng.png)
+</details>
+
+<details>
+<summary>Sign-Up</summary>
+
+![Sign-up lighthouse screeshot](documentation/readme-images/desktop-signup.png)
+</details>
+
+<details>
+<summary>Thankyou</summary>
+
+![Thankyou lighthouse screeshot](documentation/readme-images/desktop-thankyou.png)
+</details>
+
+
+
+
+<br>
+
 For Mobile Devices
+<details>
+<summary>Homepage</summary>
+
+![Homepage lighthouse screeshot](documentation/readme-images/mobile-home.png)
+</details>
+
+<details>
+<summary>Workshops</summary>
+
+![Workshops lighthouse screeshot](documentation/readme-images/mobile-workshops.png)
+</details>
+
+<details>
+<summary>Gallery</summary>
+
+![Gallery lighthouse screeshot](documentation/readme-images/gallery-mobile.png)
+</details>
+
+<details>
+<summary>Sign-Up</summary>
+
+![Sign-up lighthouse screeshot](documentation/readme-images/sign-upmobile.png)
+</details>
+
+<details>
+<summary>Thankyou</summary>
+
+![Thankyou lighthouse screeshot](documentation/readme-images/mobile-thankyou.png)
+</details>
+
+<br>
+
+### Validation
+
+### HTML
+ [W3C Markup Validator](https://validator.w3.org/nu/) - validation service used. 
+
+<details>
+<summary>Homepage</summary>
+
+![Homepage W3C testing screeshot](documentation/validation/index-html.png)
+</details>
+
+<details>
+<summary>Workshops</summary>
+
+![Workshops W3C testing screeshot](documentation/validation/workshop-html.png)
+</details>
+
+<details>
+<summary>Gallery</summary>
+
+![Gallery W3C testing screeshot](documentation/validation/gallery-html.png)
+</details>
+
+<details>
+<summary>Sign-up</summary>
+
+First test resluted in a error:
+![Signup W3C testing screeshot](documentation/validation/signup-error.png)
+
+Error was fixed by removing the content within the iframe tag. Final result:
+![Signup W3C testing screenshot](documentation/validation/signup-html.png)
+
+</details>
+
+<details>
+<summary>Thankyou</summary>
+
+![Thankyou W3C testing screeshot](documentation/validation/thankyou-html.png)
+</details>
+
+<br>
+
+### CSS
+
+ [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_address)  - validation service used. 
+
+ <details>
+<summary>Stylesheet</summary>
+
+![Screenshot of W3C Jigsaw testing for Foodies Corner CSS Stylesheet](documentation/validation/validatedcss.png)
+</details>
+
+### Browser Compatibility
+
+Website was tested manually on these browsers: Google Chrome, Edge, Firefox, Safari. The results were satisfactory.
+
+### Bugs
+
+There was an issue with the sign-up form, the input area for the full name in the sign-up form appears next to it on larger screens. My intention was for it to appear below the label:
+<details>
+<summary>Bugs</summary>
+
+![Bug](documentation/readme-images/sp-bug.png)
+</details>
+
+Other bugs were discovered after testing the websites through W3C & Lighthouse:
+
+| Detected by | Bug | Solution |
+| :---------- | :-- | :------  |
+| Lighthouse  | Performance was low since images were in jpg formart | Resized images and converted them to webp |
+| Lighthouse  | Performance was low since the touch icon was missing | Added the touch icon |
+| W3C Validator | Error: Text not allowed in element iframe in the context | Text removed
+
+<br>
+
+## Version Control
+
+Version control has been maintained using Git. The code written for this website has been updated via regular commits to Github. These serve as a record of development and changes to the varying pages of html and css.
+
+View commit history [here](https://github.com/Njorogetracy/foodies-corner/commits/main)
+
+<br>
+
+## Deployment
+
+Website was deployed on Github:
+
+1. Log in to GitHub and locate the [GitHub Repository 
+foodies-corner](https://njorogetracy.github.io/foodies-corner/)
+2. Go to "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "Pages" in "Code and automation" section.
+4. Under "Source", click the dropdown called "Select branch:" and select "Main", click the dropdown called "Select folder" and select "/root".
+5. The page will automatically refresh and you receive message "Your site is published at https://njorogetracy.github.io/foodies-corner/". 
+
+![Deployed Site](documentation/readme-images/deployed-sitepng.png)
+
+<br>
+
+## Credits
+
+### Code
+
+- Code Instutute README.md template has been used to create this document
+- [Youtube](https://youtu.be/nwEB3Wxh5N0) - Inspiration and walk through code on hoow to create a responsive sign up form and map
+- [W3schools](https://www.w3schools.com/css/css3_object-position.asp) - How to fit images into a screen
+- [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/) - Creating a responsive gallery with grid
+- [CSS Tricks](https://css-tricks.com/a-complete-guide-to-css-media-queries/) - A guide on how to use media queries
+
+### Media
+
+ Images were sourced from [Pexels.com](https://pexels.com/):
+ - [Photo by hasan kurt from Pexels:]( https://www.pexels.com/photo/white-ceramic-mug-with-coffee-beside-brown-dried-leaf-10749578/)
+ - [Photo by Tirachard Kumtanom from Pexels:]( https://www.pexels.com/photo/chef-holding-white-tea-cup-887827/)
+ - [Photo by Kampus Production from Pexels:]( https://www.pexels.com/photo/a-man-in-chef-s-white-standing-in-the-kitchen-area-8629122/)
+ - [Photo by Pixabay from Pexels:](https://www.pexels.com/photo/close-up-photo-of-a-burrito-461198/)
+ - [Photo by Team Picsfast from Pexels:]( https://www.pexels.com/photo/person-pouring-chocolate-syrup-on-buns-with-berries-8753567/)
+ - [Photo by julie aagaard from Pexels:](https://www.pexels.com/photo/salad-on-a-plate-2097090/)
+ - [Photo by Kristina  Snowasp from Pexels:](https://www.pexels.com/photo/a-person-mixing-sliced-vegetables-on-a-wooden-bowl-8978868/)
+
+ <br>
+
+ ## Acknowledgements 
+
+ - My Mentor Mitko Bachvarov for the helpul guidance, resouces and feedback offered though my project
+ - Code Institute Slack community for the resourceful information and resources
+ - Code Institute Tutor Support for being very generous with assitance and guidance in some areas in my project
