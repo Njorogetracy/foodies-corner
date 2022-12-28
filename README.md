@@ -237,7 +237,7 @@ For Desktops:
 <details>
 <summary>Homepage</summary>
 
-![Homepage lighthouse screeshot](documentation/readme-images/desktop-indexpage.png)
+![Homepage lighthouse screeshot](documentation/readme-images/desktop-homepage.png)
 </details>
 
 <details>
@@ -273,7 +273,7 @@ For Mobile Devices
 <details>
 <summary>Homepage</summary>
 
-![Homepage lighthouse screeshot](documentation/readme-images/mobile-home.png)
+![Homepage lighthouse screeshot](documentation/readme-images/mobile-homepagepng.png)
 </details>
 
 <details>
