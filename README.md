@@ -24,7 +24,7 @@ Foodies Corner is an imagined website targeted towards people who love food and 
 4. [Features](#features)
 5. [Testing](#testing)
     - [Function Testing](#function-testing)
-    - [Perfomance](#perfomance)
+    - [Performance](#perfomance)
     - [Validation](#validation)
     - [HTML](#HTML)
     - [CSS](#CSS)
@@ -114,7 +114,7 @@ This website consists of five pages, four accesssible through the  navigation me
 ### Logo and Navigation Bar
 - It is featured on all five pages 
 - The logo when clicked brings user back to the homepage
-- It makesnavigation through the website easy
+- It makes navigation through the website easy
 - When the user hovers over any of the navigation menu items, they are highlighted
 
 ![Logo and Navbar](documentation/readme-images/navbar.png)
@@ -133,14 +133,14 @@ This website consists of five pages, four accesssible through the  navigation me
 ![Description](documentation/readme-images/about.png)
 
 ### Footer
-- Contains socia media icons which when clicked opens in a new tab
+- Contains social media icons which when clicked open in a new tab
 
 ![Footer](documentation/readme-images/Screenshot_20221227_024454.png)
 
 ### Workshops
 - Gives a description of what we offer
 - Gives a description as well as images of the facilitators
-- Includes sign up button which when clicked takes one to the sign up page
+- Includes a sign up button which when clicked takes one to the sign up page
 
 ![workshops Intro](documentation/readme-images/workshopintro.png)
 
@@ -156,7 +156,7 @@ This website consists of five pages, four accesssible through the  navigation me
 
 ### Sign-up!
 - Includes a form where users can sign up for the workshops
-- Includes map with directions to the workshop location
+- Includes a map with directions to the workshop location
 - Once form is filled and submitted, the user is directed to a thankyou page
 
 ![sign-up](documentation/readme-images/signup-page.png)
@@ -165,7 +165,7 @@ This website consists of five pages, four accesssible through the  navigation me
 - Includes an image
 - Includes thank you message
 - Includes a booking confirmation message
-- Include a buttton that redirects to home page
+- Include a button that redirects to home page
 
 ![Thankyou page](documentation/readme-images/thankyou-pg.png)
 
