@@ -420,6 +420,9 @@ foodies-corner](https://njorogetracy.github.io/foodies-corner/)
  - [Photo by julie aagaard from Pexels:](https://www.pexels.com/photo/salad-on-a-plate-2097090/)
  - [Photo by Kristina  Snowasp from Pexels:](https://www.pexels.com/photo/a-person-mixing-sliced-vegetables-on-a-wooden-bowl-8978868/)
 
+ The following gallery images were courtesy of Miriti's Delight: image-1, image-2, image-6 and image-9
+ - [Photos by Ken Miriti(Miriti's Delight)](https://instagram.com/miritisdelight?igshid=YmMTA2M2Y=)
+
  <br>
 
  ## Acknowledgements 
@@ -427,3 +430,4 @@ foodies-corner](https://njorogetracy.github.io/foodies-corner/)
  - My Mentor Mitko Bachvarov for the helpul guidance, resouces and feedback offered though my project
  - Code Institute Slack community for the resourceful information and resources
  - Code Institute Tutor Support for being very generous with assitance and guidance in some areas in my project
+ - Ken Miriti a photographer and friend who graciously asent me some of his images to use in my project
