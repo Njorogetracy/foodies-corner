@@ -394,7 +394,7 @@ footer ul {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 25vw);
     gap: .0.5rem;
-    padding: 2rem;
+    padding: 4rem;
     box-sizing: border-box;
     place-items: center;
 
@@ -918,7 +918,7 @@ footer ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 40vw);
-        padding: 2rem;
+        padding: 4rem;
     }
 }
 
@@ -967,7 +967,7 @@ footer ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 40vw);
-        padding: 2rem;
+        padding: 4rem;
     }
 
     /* footer  */
