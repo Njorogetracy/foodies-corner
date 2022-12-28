@@ -278,7 +278,7 @@ For Mobile Devices
 <details>
 <summary>Workshops</summary>
 
-![Workshops lighthouse screeshot](documentation/readme-images/mobile-workshops.png)
+![Workshops lighthouse screeshot](documentation/readme-images/mobile-workshop.png)
 </details>
 
 <details>
@@ -419,6 +419,12 @@ foodies-corner](https://njorogetracy.github.io/foodies-corner/)
  - [Photo by Team Picsfast from Pexels:]( https://www.pexels.com/photo/person-pouring-chocolate-syrup-on-buns-with-berries-8753567/)
  - [Photo by julie aagaard from Pexels:](https://www.pexels.com/photo/salad-on-a-plate-2097090/)
  - [Photo by Kristina  Snowasp from Pexels:](https://www.pexels.com/photo/a-person-mixing-sliced-vegetables-on-a-wooden-bowl-8978868/)
+ - [Photo by ANTONI SHKRABA production from Pexels:]( https://www.pexels.com/photo/woman-in-brown-apron-standing-behind-a-wooden-kitchen-counter-8902007/)
+
+ These photos are from Unsplash.com
+ - [Photo by Or Hakim from Unsplash](https://unsplash.com/photos/S2Eql9vHN3o)
+ - [Photo by Toa Heftiba from Unsplash](https://unsplash.com/photos/5JeTin55H9U)
+ - [Photo by Hanny Naibaho](https://unsplash.com/photos/0YbeoQOX89k)
 
  The following gallery images were courtesy of Miriti's Delight: image-1, image-2, image-6 and image-9
  - [Photos by Ken Miriti(Miriti's Delight)](https://instagram.com/miritisdelight?igshid=YmMTA2M2Y=)
