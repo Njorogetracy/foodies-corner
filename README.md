@@ -105,7 +105,7 @@ These fonts were chosen to be in order to give the website a simple and clean lo
 
 Wireframes were created using [Balsamiq Wireframing Software](https:/balsamiq.com/)
 
-View wireframes [here](https://github.com/Njorogetracy/foodies-corner/blob/main/documentation/wireframes/foodiescorner 1.pdf)
+View wireframes [PDF file here]()
 
 ## Features 
 
