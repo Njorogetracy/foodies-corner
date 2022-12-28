@@ -177,13 +177,14 @@ This website has been written using HTML and CSS only
 
 <br>
 
-### Frameworks, Librabries and Programs Used
-- Githud: Storing and hostinf my code/repository
+### Frameworks, Libraries and Programs Used
+- Github: Storing and hosting my code/repository
 - Gitpod: Code editor for writing my code and storing other images/files
 - Font Awesome: For icons used in the site
 - Colorhunt: For choosing the palette to be used in the website
-- Google Fonts: To import the fonts used throughout the site- Pexels: Stock images
-- Google DevTools: Used throughout the site's creation to test responsiveness and tweak layout
+- Google Fonts: To import the fonts used throughout the site
+- Unsplash: Stock images
+- Google DevTools: Used throughout the site's creation to test responsiveness and adjust layout
 - Balsamiq: Wireframe software
 - Am I Responsive: To create a visual of the website across different device sizes
 - Tinypng: resize images 
@@ -200,7 +201,7 @@ This website has been written using HTML and CSS only
 
 ## Testing 
 
-Testing waas performed across a range of devices, including:
+Testing was performed across a range of devices, including:
 - Lenovo ThinkVision T24i-20 (1920 x 1080)
 - Dell XPS 9315 (1920 x 1200)
 - HP Envy (1920 x 1080)
@@ -403,8 +404,8 @@ foodies-corner](https://njorogetracy.github.io/foodies-corner/)
 
 ### Code
 
-- Code Instutute README.md template has been used to create this document
-- [Youtube](https://youtu.be/nwEB3Wxh5N0) - Inspiration and walk through code on hoow to create a responsive sign up form and map
+- Code Institute README.md template has been used to create this document
+- [YouTube](https://youtu.be/nwEB3Wxh5N0) - Inspiration and walk through code on how to create a responsive sign up form and map
 - [W3schools](https://www.w3schools.com/css/css3_object-position.asp) - How to fit images into a screen
 - [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/) - Creating a responsive gallery with grid
 - [CSS Tricks](https://css-tricks.com/a-complete-guide-to-css-media-queries/) - A guide on how to use media queries
@@ -421,7 +422,7 @@ foodies-corner](https://njorogetracy.github.io/foodies-corner/)
  - [Photo by Kristina  Snowasp from Pexels:](https://www.pexels.com/photo/a-person-mixing-sliced-vegetables-on-a-wooden-bowl-8978868/)
  - [Photo by ANTONI SHKRABA production from Pexels:]( https://www.pexels.com/photo/woman-in-brown-apron-standing-behind-a-wooden-kitchen-counter-8902007/)
 
- These photos are from Unsplash.com
+ These photos are sourced from Unsplash.com
  - [Photo by Or Hakim from Unsplash](https://unsplash.com/photos/S2Eql9vHN3o)
  - [Photo by Toa Heftiba from Unsplash](https://unsplash.com/photos/5JeTin55H9U)
  - [Photo by Hanny Naibaho](https://unsplash.com/photos/0YbeoQOX89k)
@@ -433,7 +434,7 @@ foodies-corner](https://njorogetracy.github.io/foodies-corner/)
 
  ## Acknowledgements 
 
- - My Mentor Mitko Bachvarov for the helpul guidance, resouces and feedback offered though my project
+ - My Mentor Mitko Bachvarov for the helpul guidance, resources and feedback offered thoughout my project
  - Code Institute Slack community for the resourceful information and resources
  - Code Institute Tutor Support for being very generous with assitance and guidance in some areas in my project
- - Ken Miriti a photographer and friend who graciously asent me some of his images to use in my project
+ - Ken Miriti a photographer and friend who graciously sent me some of his images to use in my project
