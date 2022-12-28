@@ -144,7 +144,7 @@ This website consists of five pages, four accesssible through the  navigation me
 
 ![workshops Intro](documentation/readme-images/workshopintro.png)
 
-![Facilitators](documentation/readme-images/facilitators.png)
+![Facilitators](documentation/readme-images/workshop-img.png)
 
 ![Sign up Button](documentation/readme-images/signup-button.png)
 
